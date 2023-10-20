@@ -1,0 +1,117 @@
+{
+  "id": "TextvorgabeFr",
+  "title": [
+    {
+      "lang": "de",
+      "value": "Textvorgabe Fremdsprachen"
+    }
+  ],
+  "csv_delimiter": ",",
+  "base": "https://w3id.org/iqb/v25",
+  "outDir": "./",
+  "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "vocabularies": [
+    {
+      "id": "sp",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Sprechtempo"
+        }
+      ],
+      "filenameSource": "sp_Sprechtempo.csv",
+      "filenameTarget": "sp_Sprechtempo.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "sy",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Syntaxkomplexität"
+        }
+      ],
+      "filenameSource": "sy_Syntaxkomplexitaet.csv",
+      "filenameTarget": "sy_Syntaxkomplexitaet.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "ta",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Text-Abstraktionsgrad"
+        }
+      ],
+      "filenameSource": "ta_Text-Abstraktionsgrad.csv",
+      "filenameTarget": "ta_Text-Abstraktionsgrad.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "te",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Textsorte"
+        }
+      ],
+      "filenameSource": "te_Textsorte.csv",
+      "filenameTarget": "te_Textsorte.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "th",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Thema"
+        }
+      ],
+      "filenameSource": "th_Thema.csv",
+      "filenameTarget": "th_Thema.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "vf",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Vokabularfrequenz"
+        }
+      ],
+      "filenameSource": "vf_Vokabularfrequenz.csv",
+      "filenameTarget": "vf_Vokabularfrequenz.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,241 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v25/th/#>. 
+@prefix n1: <https://w3id.org/iqb/v25/th/>. 
+
+n1:b4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Architektur und Design"@de.
+n1:x4s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Ausbildung"@de.
+n1:g5s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Berufe"@de.
+n1:s5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Bildende Kunst"@de.
+n1:e3b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Darstellende Kunst"@de.
+n1:s4c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Dienstleistungen: Arztbesuch, Behörden, Bank u.ä."@de.
+n1:x3u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Einkaufen, Kleidung, Konsum"@de.
+n1:u4p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "elektronische Medien"@de.
+n1:y7h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Erziehung"@de.
+n1:b3d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Essen und Trinken"@de.
+n1:g5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Familienalltag"@de.
+n1:u3e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Freizeit und Sport"@de.
+n1:c2b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Geografische Gegebenheiten"@de.
+n1:f3a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Geschichte, Philosophie, Religion"@de.
+n1:b9b
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Globale Herausforderungen"@de.
+n1:u5d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Haustiere, Tiere"@de.
+n1:a4h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Identität"@de.
+n1:u6s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kommunikation"@de.
+n1:u6d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Literatur"@de.
+n1:z5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Menschenrechte, moralische Verantwortung"@de.
+n1:q6q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Musik"@de.
+n1:f3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Natur, Wissenschaft und Technik"@de.
+n1:u6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Politik und Wirtschaft"@de.
+n1:r7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Presse, Rundfunk, Fernsehen"@de.
+n1:r7x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Regionale Identität"@de.
+n1:s7f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Reisen, Tourismus"@de.
+n1:g9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schulalltag"@de.
+n1:d7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Schule und Unterricht"@de.
+n1:p7d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Sprache und Sprachenlernen"@de.
+n1:e3a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Verkehrsmittel"@de.
+n1:h9y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wetter"@de.
+n1:v6t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wohnen und Umwelt"@de.
+n1:v4y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zwischenmenschliche Beziehungen: Liebe, Freundschaft, Familie"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Textvorgabe Fremdsprachen - Thema"@de;
+	skos:hasTopConcept
+		n1:b4d,
+		n1:x4s,
+		n1:g5s,
+		n1:s5v,
+		n1:e3b,
+		n1:s4c,
+		n1:x3u,
+		n1:u4p,
+		n1:y7h,
+		n1:b3d,
+		n1:g5e,
+		n1:u3e,
+		n1:c2b,
+		n1:f3a,
+		n1:b9b,
+		n1:u5d,
+		n1:a4h,
+		n1:u6s,
+		n1:u6d,
+		n1:z5t,
+		n1:q6q,
+		n1:f3s,
+		n1:u6t,
+		n1:r7f,
+		n1:r7x,
+		n1:s7f,
+		n1:g9u,
+		n1:d7u,
+		n1:p7d,
+		n1:e3a,
+		n1:h9y,
+		n1:v6t,
+		n1:v4y.

@@ -1,0 +1,38 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix n0: <https://w3id.org/iqb/v25/vf/#>. 
+@prefix n1: <https://w3id.org/iqb/v25/vf/>. 
+
+n1:r5t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "ausschließlich frequent"@de.
+n1:f5h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "hauptsächlich frequent"@de.
+n1:c7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "hauptsächlich komplex"@de.
+n1:f5r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "wenig frequent"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Textvorgabe Fremdsprachen - Vokabularfrequenz"@de;
+	skos:hasTopConcept
+		n1:r5t,
+		n1:f5h,
+		n1:c7t,
+		n1:f5r.

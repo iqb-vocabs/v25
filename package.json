@@ -1,0 +1,22 @@
+{
+  "name": "iqb-vocabs_v25",
+  "version": "0.1.0",
+  "description": "Textvorgabe Fremdsprachen",
+  "scripts": {
+    "run_id": "addidcsv csv",
+    "run_ttl": "csv2ttl csv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqb-vocabs/v25.git"
+  },
+  "author": "IQB",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iqb-vocabs/v25/issues"
+  },
+  "homepage": "https://github.com/iqb-vocabs/v25#readme",
+  "devDependencies": {
+    "@iqb/csv2ttl": "^0.7.1"
+  }
+}
