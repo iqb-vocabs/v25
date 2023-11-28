@@ -15,18 +15,18 @@ n1:f5h
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "hauptsächlich frequent"@de.
-n1:c7t
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "hauptsächlich komplex"@de.
 n1:f5r
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "wenig frequent"@de.
+n1:a2a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "ausschließlich komplex"@de.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
@@ -34,5 +34,5 @@ n0:
 	skos:hasTopConcept
 		n1:r5t,
 		n1:f5h,
-		n1:c7t,
-		n1:f5r.
+		n1:f5r,
+		n1:a2a.
