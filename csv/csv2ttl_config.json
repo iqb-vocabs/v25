@@ -71,7 +71,7 @@
         }
       ],
       "filenameSource": "le_Lexiko-Grammatik.csv",
-      "filenameTarget": "ta_Lexiko-Grammatik.ttl",
+      "filenameTarget": "le_Lexiko-Grammatik.ttl",
       "description": [
         {
           "lang": "de",
