@@ -29,15 +29,66 @@
       ]
     },
     {
-      "id": "sy",
+      "id": "av",
       "title": [
         {
           "lang": "de",
-          "value": "Syntaxkomplexität"
+          "value": "Anglophone Varietät"
         }
       ],
-      "filenameSource": "sy_Syntaxkomplexitaet.csv",
-      "filenameTarget": "sy_Syntaxkomplexitaet.ttl",
+      "filenameSource": "av_Anglophone_Varietaet.csv",
+      "filenameTarget": "av_Anglophone_Varietaet.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "fv",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Frankophone Varietät"
+        }
+      ],
+      "filenameSource": "fv_Frankophone_Varietaet.csv",
+      "filenameTarget": "fv_Frankophone_Varietaet.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "le",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Lexiko-Grammatik"
+        }
+      ],
+      "filenameSource": "le_Lexiko-Grammatik.csv",
+      "filenameTarget": "ta_Lexiko-Grammatik.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "ne",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Nebengeräusche"
+        }
+      ],
+      "filenameSource": "ne_Nebengeraeusche.csv",
+      "filenameTarget": "ne_Nebengeraeusche.ttl",
       "description": [
         {
           "lang": "de",
@@ -67,11 +118,11 @@
       "title": [
         {
           "lang": "de",
-          "value": "Stimulussorte"
+          "value": "Textsorte"
         }
       ],
-      "filenameSource": "te_Stimulussorte.csv",
-      "filenameTarget": "te_Stimulussorte.ttl",
+      "filenameSource": "te_Textsorte.csv",
+      "filenameTarget": "te_Textsorte.ttl",
       "description": [
         {
           "lang": "de",
@@ -89,6 +140,23 @@
       ],
       "filenameSource": "th_Thema.csv",
       "filenameTarget": "th_Thema.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "ve",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Vertrautheitsgrad"
+        }
+      ],
+      "filenameSource": "ve_Vertrautheitsgrad.csv",
+      "filenameTarget": "ve_Vertrautheitsgrad.ttl",
       "description": [
         {
           "lang": "de",
