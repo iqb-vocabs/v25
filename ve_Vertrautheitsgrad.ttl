@@ -24,7 +24,7 @@ n1:g6q
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
-	dct:title "Textvorgabe Fremdsprachen - Vertrautheitsgrad"@de;
+	dct:title "Textvorgabe Fremdsprachen - Thematischer Vertrautheitsgrad"@de;
 	skos:hasTopConcept
 		n1:h5v,
 		n1:y4g,

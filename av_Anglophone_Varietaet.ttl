@@ -3,6 +3,12 @@
 @prefix n0: <https://w3id.org/iqb/v25/av/>. 
 @prefix n1: <https://w3id.org/iqb/v25/av/>. 
 
+n1:y9a
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Standardsprache"@de.
 n1:r7h
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -68,6 +74,7 @@ n0:
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Textvorgabe Fremdsprachen - Anglophone Varietät"@de;
 	skos:hasTopConcept
+		n1:y9a,
 		n1:r7h,
 		n1:g3p,
 		n1:d7r,

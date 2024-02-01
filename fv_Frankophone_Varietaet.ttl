@@ -3,6 +3,12 @@
 @prefix n0: <https://w3id.org/iqb/v25/fv/>. 
 @prefix n1: <https://w3id.org/iqb/v25/fv/>. 
 
+n1:a7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Standardsprache"@de.
 n1:g4q
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -62,6 +68,7 @@ n0:
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Textvorgabe Fremdsprachen - Frankophone Varietät"@de;
 	skos:hasTopConcept
+		n1:a7v,
 		n1:g4q,
 		n1:u4e,
 		n1:f5q,
