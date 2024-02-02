@@ -304,6 +304,104 @@ n1:z5e
 		n1:c3e,
 		n1:c6v,
 		n1:p2r.
+n1:f3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.1";
+	skos:broader n1:s4d;
+	skos:prefLabel "Architektur"@de.
+n1:r3c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.2";
+	skos:broader n1:s4d;
+	skos:prefLabel "Bildende Kunst"@de.
+n1:y9z
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.3";
+	skos:broader n1:s4d;
+	skos:prefLabel "Darstellende Kunst"@de.
+n1:v3q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.4";
+	skos:broader n1:s4d;
+	skos:prefLabel "Fernsehen"@de.
+n1:c6f
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.5";
+	skos:broader n1:s4d;
+	skos:prefLabel "Film"@de.
+n1:a7t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.6";
+	skos:broader n1:s4d;
+	skos:prefLabel "Grafik und Design"@de.
+n1:y3y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.7";
+	skos:broader n1:s4d;
+	skos:prefLabel "Internet"@de.
+n1:x6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.8";
+	skos:broader n1:s4d;
+	skos:prefLabel "Literatur"@de.
+n1:u3s
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.9";
+	skos:broader n1:s4d;
+	skos:prefLabel "Musik"@de.
+n1:v6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.10";
+	skos:broader n1:s4d;
+	skos:prefLabel "Presse"@de.
+n1:u7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.11";
+	skos:broader n1:s4d;
+	skos:prefLabel "Rundfunk"@de.
+n1:v9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.12";
+	skos:broader n1:s4d;
+	skos:prefLabel "Soziale Medien"@de.
+n1:t4r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6.13";
+	skos:broader n1:s4d;
+	skos:prefLabel "Video"@de.
+n1:s4d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "6";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Kunst und Medien"@de;
+	skos:narrower 
+		n1:f3p,
+		n1:r3c,
+		n1:y9z,
+		n1:v3q,
+		n1:c6f,
+		n1:a7t,
+		n1:y3y,
+		n1:x6r,
+		n1:u3s,
+		n1:v6r,
+		n1:u7v,
+		n1:v9r,
+		n1:t4r.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
@@ -313,4 +411,5 @@ n0:
 		n1:b6s,
 		n1:r5e,
 		n1:d4f,
-		n1:z5e.
+		n1:z5e,
+		n1:s4d.
