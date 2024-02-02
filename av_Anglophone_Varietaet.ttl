@@ -26,7 +26,7 @@ n1:d7r
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Irish"@de.
+	skos:prefLabel "Irisch"@de.
 n1:q4s
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -38,19 +38,19 @@ n1:c9p
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Kreolish"@de.
+	skos:prefLabel "Kreolisch"@de.
 n1:p4p
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Nigerianish"@de.
+	skos:prefLabel "Nigerianisch"@de.
 n1:y5a
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Neuseeländish"@de.
+	skos:prefLabel "Neuseeländisch"@de.
 n1:t6y
 	 a skos:Concept;
 	skos:inScheme n0:;
