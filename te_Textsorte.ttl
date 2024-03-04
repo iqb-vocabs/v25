@@ -3,24 +3,36 @@
 @prefix n0: <https://w3id.org/iqb/v25/te/>. 
 @prefix n1: <https://w3id.org/iqb/v25/te/>. 
 
-n1:r9r
+n1:e7d
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "Anweisung"@de.
+	skos:prefLabel "(Web-)Artikel"@de.
 n1:z6e
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Ansage/Durchsage"@de.
+n1:r9r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Anweisung"@de.
 n1:u2x
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Blog/Blogeintrag"@de.
+n1:b6p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Blogroman"@de.
 n1:y2b
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -33,30 +45,24 @@ n1:t6g
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Chat"@de.
-n1:h5c
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Digital Story"@de.
 n1:f3h
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Debatte"@de.
+n1:h5c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Digital Story"@de.
 n1:t6t
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Diskussion"@de.
-n1:q6r
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Plakat"@de.
 n1:z4c
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -111,6 +117,12 @@ n1:r2u
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Hyperfiction"@de.
+n1:c4t
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Instapoetry"@de.
 n1:x2d
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -153,6 +165,12 @@ n1:r3b
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Newsfeed"@de.
+n1:q6r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Plakat"@de.
 n1:f9z
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -219,56 +237,39 @@ n1:h6b
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Twitterature"@de.
-n1:e7d
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "(Web-)Artikel"@de.
 n1:b9s
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Werbung"@de.
-n1:d5e
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Wiki"@de.
-n1:b6p
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Blogroman"@de.
-n1:c4t
-	 a skos:Concept;
-	skos:inScheme n0:;
-	skos:notation "";
-	skos:topConceptOf n0:;
-	skos:prefLabel "Instapoetry"@de.
 n1:y9y
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "Wetterbericht"@de.
+n1:d5e
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Wiki"@de.
 n0:
 	a skos:ConceptScheme;
 	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
 	dct:title "Textvorgabe Fremdsprachen - Textsorte"@de;
 	skos:hasTopConcept
-		n1:r9r,
+		n1:e7d,
 		n1:z6e,
+		n1:r9r,
 		n1:u2x,
+		n1:b6p,
 		n1:y2b,
 		n1:t6g,
-		n1:h5c,
 		n1:f3h,
+		n1:h5c,
 		n1:t6t,
-		n1:q6r,
 		n1:z4c,
 		n1:t3d,
 		n1:g6q,
@@ -278,6 +279,7 @@ n0:
 		n1:v2t,
 		n1:x9u,
 		n1:r2u,
+		n1:c4t,
 		n1:x2d,
 		n1:y6v,
 		n1:z5h,
@@ -285,6 +287,7 @@ n0:
 		n1:t7u,
 		n1:x3a,
 		n1:r3b,
+		n1:q6r,
 		n1:f9z,
 		n1:p4c,
 		n1:x5d,
@@ -296,9 +299,6 @@ n0:
 		n1:u2u,
 		n1:u9q,
 		n1:h6b,
-		n1:e7d,
 		n1:b9s,
-		n1:d5e,
-		n1:b6p,
-		n1:c4t,
-		n1:y9y.
+		n1:y9y,
+		n1:d5e.
